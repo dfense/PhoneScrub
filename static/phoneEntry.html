@@ -1,0 +1,39 @@
+<!-- index.html -->
+
+<!doctype html>
+<html>
+<head>
+    <title>John Frailey Python Test</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="javascript/jquery-3.1.0.js"></script>
+    <script src="magic.js"></script> <!-- load my javascript file -->
+</head>
+
+<body>
+
+<div class="col-sm-6 col-sm-offset-3">
+    <div>
+        <img src="https://pigeon.ly/assets/pigeonly/pigeonly_logo_words.svg" class="svg" style="width: 80%">
+    </div>
+
+    <h1>Enter Some Text</h1>
+
+    <!-- OUR FORM -->
+    <form id="theform" method="POST">
+	<div class="form-group">
+        <!-- PIGEONLY.LY TEXT ENTRY BOX -->
+            <textarea name="text-box" class="form-control" rows="10"
+                placeholder="Type Phone Numbers Here"></textarea>
+	</div>
+        <!-- SUBMIT BUTTON -->
+        <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+    <div id="result-phone-numbers">
+
+    </div>
+
+</div>
+</body>
+</html>

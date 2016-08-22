@@ -1,3 +1,12 @@
+
+"""app.py
+Entry point into a Flask Application.
+Minimal Bootstrap and place to wire the blueprints
+
+Date: 08/21/2016
+Auth: dfense@gmail.com <john>
+"""
+
 from flask import Flask,redirect
 
 from resources.phoneNumProcessor import phone_api

@@ -25,12 +25,11 @@ $(document).ready(function() {
 		warnMessage = "WARNING: The minimum length to be submitted is" +
 		 _MINLENGTH + " characters. Please fix and try again."
 	}
-	console.log('message length: ' + warnMessage.length);
 	if(warnMessage.length){
 	
-		console.log("And here is the textbox Data: " + formData.textBox.length);
 		var options = {
-    			"backdrop" : "static"
+    			"backdrop" : "static",
+			"keyboard" : "true"
 		};
 
 		$('#basicModal').modal(options);
